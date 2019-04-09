@@ -1,0 +1,21 @@
+name: qrscan
+description: A Plug-in for dart, which help you scanning Bar Codes and QR Code with Android.
+version: 0.1.3
+author: Shusheng <leyansorosame@gmail.com>
+homepage: https://github.com/leyan95/qrcode_scanner
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  test: ^1.5.1
+  test_coverage: ^0.2.0
+
+flutter:
+  plugin:
+    androidPackage: com.shinow.qrscan
+    pluginClass: QrscanPlugin
